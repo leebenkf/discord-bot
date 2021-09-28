@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
-import o
-s
+import os
 app = commands.Bot(command_prefix='!')
 
 @app.event
@@ -36,7 +35,7 @@ async def on_member_join(member):
   channel = member.server.get_channel1("channe1_id_here")
   await clinet.send_mssage(channel, fmt.format(member, member. server))
 
-  
+access_token = o.sen[nor"iB
 app.run('ODkyMzMxMjExNzU2ODA2MTQ0.YVLWMw.hzNGgEV8Sdgy1CpMVg5UnV9_IOs')
 
 
