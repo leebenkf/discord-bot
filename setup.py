@@ -29,5 +29,3 @@ async def 샌즈2(ctx):
 
 access_token = os.environ["BOT_TOKEN"]
 app.run(access_token)
-
-
