@@ -27,14 +27,6 @@ async def 샌즈(ctx):
 async def 샌즈2(ctx):
     await ctx.send('구나!')
 
-
-
-@app.event
-async def on_member_join(member):
-  fmt = '{1.name} 에 오신걸 환영합니다, {0.mention} 님'
-  channel = member.server.get_channel1("channe1_id_here")
-  await clinet.send_mssage(channel, fmt.format(member, member. server))
-
 access_token = os.environ["BOT_TOKEN"]
 app.run(access_token)
 
