@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
-
+import o
+s
 app = commands.Bot(command_prefix='!')
 
 @app.event
