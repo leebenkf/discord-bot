@@ -39,6 +39,5 @@ async def 기능(ctx):
 
 
 
-
-  
+access_token = os.environ["BOT_TOKEN"]
 app.run('ODkyMzMxMjExNzU2ODA2MTQ0.YVLWMw.5okhiS09ZNJMG8Bh_-oLQq0C9Ak')
